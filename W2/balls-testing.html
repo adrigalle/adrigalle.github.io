@@ -1,0 +1,87 @@
+<script>
+
+// arrays exercise
+var list = [];
+list.push(create());
+list.push(create());
+list.push(create());
+list.push(create());
+// will have 4 items in list
+
+// can probably make a loop to create the balls
+var list = [];                  // initialize the list
+var counter = 0;                // initalize the counter
+while (counter < 10){           // while loop that creates 10 balls
+    list.push(create());
+    counter++;
+}
+
+// change color of balls in array
+var i=0;                        // initialize the index counter
+var length = list.length;       // gets the length of the list
+while (i<length) {
+    var ball = list[i];         // going through the indexes
+    colorRandom(ball);          // changing the color of that ball at that index to a rando color
+    i++;
+}
+
+// maybe try moving them
+var i = 0;
+var length = list.length;
+while (i < length) {
+    var ball = list[i];
+    move (ball, 50, 50);
+    i++;
+}
+
+// making a painting with the balls activity (objects)
+// move through all the date to place the dots within the page, if correct the data will recreate the painting
+// gonna need the a loop to create the balls, first to initiate the ball then create
+var i = 0;
+var length = data.length;
+
+
+while (i < length){
+    var ball = data[i];
+    data.push(create(ball.x, ball.y, ball.color));
+    i++;
+}
+
+
+do {
+    var ball = data[i];
+    data.push(create(ball.x, ball.y, ball.color));
+    i++;
+} while (i < length);
+
+/* maybe if trying to make go around and bouncing off the walls, 
+create a container and as long as it dooesnt get to that point then it bounces off
+idk if it can do at angles if not like +10, +10
+*/
+</script>
+
+<!-- id is to have a handle of that ball -->
+<div id="ball" style="
+z-index: 5;
+position: absolute;
+left: 0px;
+top: 200px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background: black">
+</div>
+
+<script>
+
+var velocity = 20;
+var position = 0;
+var ball = document.getElementById('ball');
+
+//move ball
+position = position + velocity;
+ball.style.left = position + 'px'; 
+//left says px in the div, kinda like the object properties
+
+
+</script>

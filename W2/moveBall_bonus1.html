@@ -1,0 +1,81 @@
+<div id="ball" style="
+  z-index:5;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:green"></div>
+
+<script>
+
+var velocity = 3;
+var positionX = 0;
+var positionY = 0;
+
+//setting x-axis boundaries
+var xmin = 0;
+var xmax = 1000; 
+//setting y-axis boundaries
+var ymin = 0;
+var ymax = 800;
+
+var reverseX = true;
+var reverseY = true;
+var ball = document.getElementById('ball');
+
+// YOUR CODE 
+var colorRandom = function(div){
+  // random color
+  var r = Math.floor(255*(Math.random()));
+  var g = Math.floor(255*(Math.random()));
+  var b = Math.floor(255*(Math.random()));        
+  var color = 'rgb(' + r + ', ' + g + ', ' + b + ')';
+  div.style.background = color; 
+//updated it to only change color once without a delay
+  }
+// ----------------
+
+function moveBall(){
+
+  if (reverseX === false && reverseY === false){
+    positionX = positionX - velocity;
+    positionY = positionY - velocity;
+    ball.style.left = positionX + 'px';
+    ball.style.top = positionY + 'px';
+  }
+  else if(reverseX === false && reverseY === true) {
+    positionX = positionX - velocity;
+    positionY = positionY + velocity;
+    ball.style.left = positionX + 'px';
+    ball.style.top = positionY + 'px';
+  }
+  else if(reverseX === true && reverseY === false) {
+    positionX = positionX + velocity;
+    positionY = positionY - velocity;
+    ball.style.left = positionX + 'px';
+    ball.style.top = positionY + 'px';
+  }
+  else if(reverseX === true && reverseY === true) {
+    positionX = positionX + velocity;
+    positionY = positionY + velocity;
+    ball.style.left = positionX + 'px';
+    ball.style.top = positionY + 'px';
+  }
+
+  if (positionX > xmax || positionX === xmin) {
+    reverseX = !reverseX;
+    colorRandom(ball);
+    //changing reverse from true to false every time it reaches edges
+  }
+  if (positionY > ymax || positionY === ymin) {
+    reverseY = !reverseY; 
+    colorRandom(ball);
+  }
+
+}
+
+setInterval(moveBall, 5);
+
+</script>

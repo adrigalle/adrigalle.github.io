@@ -1,0 +1,17 @@
+<!--multiplication tables matching style 1-10 horizontally and vertically going to 100-->
+TABLES
+
+<script>
+    var multiplier = 1;
+
+    while(multiplier<=10){
+        let list = '';
+
+        for (i=1; i<=10; i++){
+            list += i*multiplier + ' '; //add multiplier to this list and a space after it
+        }
+
+        console.log(JSON.stringify(list)); //print list just created
+        multiplier += 1; //up the multiplier by one and go back in to a new list
+    }
+</script>

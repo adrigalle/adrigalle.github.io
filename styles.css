@@ -1,0 +1,14 @@
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Garamond, serif;
+    font-weight: lighter;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}

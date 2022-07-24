@@ -16,17 +16,20 @@
 
     <!-- doing the jQuery thing to connect all pages talked about here https://www.youtube.com/watch?v=m_RInqNGwmo-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>
-        $(function(){
-            $('#navBar').load('navbar.html');
-        });
-    </script>
+
 
 </head>
 
 <body>
-    <div id="navBar"></div>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
 
+    <script>
+        $.get("navbar.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
+    </script>
+    <!--end of Navigation bar-->
 
     <h1 style="text-align: center">Welcome</h1>
     <img src="./family-full.jpg" alt="Family of three in woodsy area in Oakdale, California" width="800" />

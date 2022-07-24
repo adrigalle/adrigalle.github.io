@@ -1,9 +1,21 @@
 <script src="script.js"></script>
 <link rel="stylesheet" href="styles.css">
 
-<nav class="topnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#news">News</a>
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#bio">Bio</a>
+    <div class="dropdown">
+      <button class="dropbtn">Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
     <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-</nav>
+    <!-- don't need this yet
+    <a href="#about">About</a> -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>

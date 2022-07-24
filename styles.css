@@ -4,12 +4,71 @@ body {
 }
 
 h1 {
-    font-family: Garamond, serif;
+    /* for big titles */
+    font-family: 'Meow Script', cursive;
     font-weight: lighter;
+    font-size: 5em;
+}
+
+h2 {
+    /* slanted */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+h3 {
+    /* all caps */
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Manjari', sans-serif;
+    font-size: 14px;
+    color: #695A5F;
 }
 
 img {
     display: block;
     margin: 0 auto;
-    /* testing */
 }
+
+/*
+colors
+#F6BD60 (close to gold)
+#F28482 #FFB5A7 (darker pink and lighter pink)
+#84A59D #D8E2DC (DARKER BLUE LIGHTER BLUE)
+#FEC89A #FFD7BA (DARKER PEACH AND LIGHTER PEACH)
+#F7EDE2 #695A5F (WHITE AND DARKER PURPLE)
+*/
+
+/* Navigation bar */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #F28482;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #F7EDE2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #F7EDE2;
+    color: #695A5F;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #84A59D;
+    color: #F7EDE2;
+  }

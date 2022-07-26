@@ -9,6 +9,11 @@ body {
   gap: 5px; /*gap between elements */
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  .content.responsive {
+    position: relative;
+  }
+}
 
 .s1 {
   grid-column: 2 / 2; 

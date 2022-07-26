@@ -10,8 +10,7 @@ body {
   text-align: center;
 }
 @media screen and (max-width: 600px) {
-  .content.responsive {
-    position: relative;
+  .content {
     width: 100%;
   }
 }

@@ -9,11 +9,6 @@ body {
   gap: 5px; /*gap between elements */
   text-align: center;
 }
-@media screen and (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
-}
 
 .s1 {
   grid-column: 2 / 2; 
@@ -44,6 +39,11 @@ body {
   grid-column: 2 / 2; 
   background-color: #84A59D;
 } 
+@media screen and (max-width: 600px) {
+  .s1 .s2 .s3 .s4 .s5 .s6 .s7 {
+    width: 100%;
+  }
+}
 
 .videoWrap {
   position: relative;

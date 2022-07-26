@@ -4,7 +4,7 @@ body {
 
 .content {
   display: grid; /* important to set this */
-  grid-template-columns: 1fr 6fr 1fr; 
+  grid-template-columns: 1fr 10fr 1fr; 
   /*grid-template-rows: repeat(4, 150px); */
   gap: 5px; /*gap between elements */
   text-align: center;

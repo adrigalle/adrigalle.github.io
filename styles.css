@@ -39,8 +39,8 @@ body {
   grid-column: 2 / 2; 
   background-color: #84A59D;
 } 
-@media screen and (max-width: 600px) {
-  .s1 .s2 .s3 .s4 .s5 .s6 .s7 {
+@media screen and (max-width: 620px) {
+  .s1, .s2, .s3, .s4, .s5, .s6, .s7 {
     width: 100%;
   }
 }

@@ -4,14 +4,14 @@ body {
 
 .content {
   display: grid; /* important to set this */
-  grid-template-columns: 1fr 10fr 1fr; 
+  grid-template-columns: 1fr 30fr 1fr; 
   /*grid-template-rows: repeat(4, 150px); */
   gap: 5px; /*gap between elements */
   text-align: center;
 }
 
 .s1 {
-  grid-column: 2 / 2; 
+  grid-column: 1 / 4; 
   background-color: #84A59D;
   text-align: center;
 }

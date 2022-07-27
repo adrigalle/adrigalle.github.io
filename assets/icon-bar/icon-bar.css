@@ -2,6 +2,7 @@
 .icon-bar {
     background-color: #555; /* Dark-grey background */
     width: 30px;
+    position: fixed;
   }
   
   .icon-bar a {

@@ -101,4 +101,11 @@ colors
 #F7EDE2 #695A5F (WHITE AND DARKER PURPLE)
 */
 
-
+#preloader {
+  background: #EAE2B7 url(images/base/loader.gif) no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

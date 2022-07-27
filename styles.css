@@ -14,9 +14,15 @@ body {
   grid-column: 1 / 6; 
   background-color: #EAE2B7;
   background-image: url(images/base/sunrise-desert.png);
+  padding: 400px 100px;
+  background-position: center center;
+  /*it is always center verticaly and horizontally */
   background-size: cover;
-  text-align: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* it is fixed depending on viewport*/
+  max-width: 100%;
+  text-align: center;
 }
 .s2 { /* video */
   grid-column: 3 / 4; 
@@ -66,7 +72,7 @@ h1 {
     /* for big titles */
     font-family: 'Meow Script', cursive;
     font-weight: lighter;
-    font-size: 5em;
+    font-size: 10em;
     text-align: center;
 }
 

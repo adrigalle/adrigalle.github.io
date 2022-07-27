@@ -19,3 +19,12 @@ fetch('assets/nav-bar/navbar.html')
     newelem.innerHTML = text;
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
+
+fetch('assets/icon-bar/icon-bar.html')
+.then(res => res.text())
+.then(text => {
+    let oldelem = document.querySelector("script#replace_with_iconbar");
+    let newelem = document.createElement("div");
+    newelem.innerHTML = text;
+    oldelem.parentNode.replaceChild(newelem,oldelem);
+})

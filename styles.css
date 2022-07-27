@@ -49,6 +49,9 @@ body {
   grid-column: 1 / 6; 
   background-color: #84A59D;
 } 
+.icon-bar {
+  grid-column: 4 / 6;
+}
 @media screen and (max-width: 620px) {
   .s1, .s2, .s3, .s4, .s5, .s6, .s7 {
     width: 100%;

@@ -4,27 +4,27 @@ body {
 
 .content {
   display: grid; /* important to set this */
-  grid-template-columns: 1fr 25fr 1fr; 
+  grid-template-columns: 1fr 2fr 25fr 2fr 1fr; 
   /*grid-template-rows: repeat(4, 150px); */
   gap: 5px; /*gap between elements */
   text-align: center;
 }
 
-.s1 {
-  grid-column: 1 / 4; 
+.s1 { /* welcome */
+  grid-column: 1 / 6; 
   background-color: #84A59D;
   text-align: center;
 }
-.s2 {
-  grid-column: 2 / 2; 
+.s2 { /* video */
+  grid-column: 3 / 4; 
+  background-color: #84A59D;
+} 
+.s3 { /* bio */
+  grid-column: 3 / 4; 
   background-color: #84A59D;
 }
-.s3 {
-  grid-column: 2 / 2; 
-  background-color: #84A59D;
-}
-.s4 {
-  grid-column: 2 / 2; 
+.s4 { /* projects */
+  grid-column: 3 / 4; 
   background-color: #84A59D;
 }
 .s5 {

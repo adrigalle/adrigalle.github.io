@@ -2,9 +2,8 @@
 .icon-bar {
     background-color: transparent; /* Dark-grey background */
     width: 40px;
-    position: sticky;
+    position: fixed;
     z-index: 1; /*stay on top */
-    height: 170px;
   }
   
   .icon-bar a {
@@ -18,7 +17,3 @@
     background-color: rgba(167, 167, 167, 0.308); /* Add a hover color */
   }
 
-  @media screen and (max-height: 170px) {
-    .icon-bar {margin-bottom: 5px;}
-    .sidenav a {font-size: 18px;}
-  }

@@ -49,15 +49,13 @@ body {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
-  text-align: center;
+
   }
 /* this makes the video keep its ratio, and be fully in frame in different screens */
 .videoWrap iframe {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
 }
 
 h1 {

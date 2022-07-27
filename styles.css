@@ -38,15 +38,15 @@ body {
   background-color: #84A59D;
 }
 .s5 {
-  grid-column: 1 / 6; 
+  grid-column: 3 / 4; 
   background-color: #84A59D;
 } 
 .s6 {
-  grid-column: 1 / 6; 
+  grid-column: 3 / 4; 
   background-color: #84A59D;
 } 
 .s7 {
-  grid-column: 1 / 6; 
+  grid-column: 3 / 4; 
   background-color: #84A59D;
 } 
 .icon-bar {

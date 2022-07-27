@@ -2,7 +2,7 @@
 .icon-bar {
     background-color: transparent; /* Dark-grey background */
     width: 30px;
-    position: fixed;
+    position: sticky;
     z-index: 1; /*stay on top */
     height: 170px;
   }

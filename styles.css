@@ -49,12 +49,9 @@ body {
   grid-column: 3 / 4; 
   background-color: #84A59D;
 } 
-.icon-bar {
-  grid-column: 5 / 6;
-  grid-row: 2 / 3;
-}
+
 @media screen and (max-width: 620px) {
-  .s1, .s2, .s3, .s4, .s5, .s6, .s7, .icon-bar {
+  .s1, .s2, .s3, .s4, .s5, .s6, .s7{
     width: 100%;
   }
 }

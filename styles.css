@@ -8,6 +8,7 @@ body {
   /*grid-template-rows: repeat(4, 150px); */
   gap: 5px; /*gap between elements */
   text-align: center;
+  background-color: #EAE2B7;
 }
 
 .s1 { /* welcome */
@@ -30,7 +31,7 @@ body {
 } 
 .s3 { /* bio */
   grid-column: 3 / 4; 
-  background-color: #84A59D;
+  background-color: #EAE2B7;
 }
 .s4 { /* projects */
   grid-column: 3 / 4; 

@@ -28,15 +28,15 @@ body {
   background-color: #84A59D;
 }
 .s5 {
-  grid-column: 2 / 2; 
+  grid-column: 1 / 6; 
   background-color: #84A59D;
 } 
 .s6 {
-  grid-column: 2 / 2; 
+  grid-column: 1 / 6; 
   background-color: #84A59D;
 } 
 .s7 {
-  grid-column: 2 / 2; 
+  grid-column: 1 / 6; 
   background-color: #84A59D;
 } 
 @media screen and (max-width: 620px) {
@@ -78,12 +78,12 @@ h3 {
     /* all caps */
     font-family: 'Patrick Hand SC', cursive;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p {
     font-family: 'Manjari', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #695A5F;
 }
 

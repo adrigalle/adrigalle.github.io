@@ -12,14 +12,14 @@
     text-align: center; /* Center-align text */
     /*padding: 16px;  Add some padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   
   .icon-bar a:hover {
     background-color: #000; /* Add a hover color */
   }
 
-  @media screen and (max-height: 165px) {
-    .icon-bar {padding-bottom: 5px;}
+  @media screen and (max-height: 170px) {
+    .icon-bar {margin-bottom: 5px;}
     .sidenav a {font-size: 18px;}
   }

@@ -1,6 +1,5 @@
 /* Icon Bar info */
 .icon-bar {
-    width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
   }
   
@@ -15,8 +14,4 @@
   
   .icon-bar a:hover {
     background-color: #000; /* Add a hover color */
-  }
-  
-  .active {
-    background-color: #04AA6D; /* Add an active/current color */
   }

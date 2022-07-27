@@ -12,7 +12,7 @@ body {
 
 .s1 { /* welcome */
   grid-column: 1 / 6; 
-  background-color: #84A59D;
+  background-color: #EAE2B7 url(images/base/sunrise-desert.png);
   text-align: center;
 }
 .s2 { /* video */

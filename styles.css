@@ -12,8 +12,11 @@ body {
 
 .s1 { /* welcome */
   grid-column: 1 / 6; 
-  background-color: #EAE2B7 url(images/base/sunrise-desert.png);
-  text-align: center;
+  background-color: #EAE2B7;
+  background-image: url(images/base/sunrise-desert.png);
+  background-size: cover;
+  text-align: 100%;
+  background-repeat: no-repeat;
 }
 .s2 { /* video */
   grid-column: 3 / 4; 

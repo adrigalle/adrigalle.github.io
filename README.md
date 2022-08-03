@@ -1,6 +1,6 @@
 # Hello! I am Adriana
 
-![My little Artemis!](/arty-smiling.jpg "Artemis, my daughter, smiling")
+![My little Artemis!](images/photographs/arty-smiling.jpg "Artemis, my daughter, smiling")
 
 This wil be my main repository that will hold different activities while attending a coding cohort through MIT. So excited for all that will be learned!
 
@@ -11,4 +11,4 @@ This wil be my main repository that will hold different activities while attendi
 
 </p>
 
-# real-time-bus-tracker
+

@@ -30,9 +30,7 @@
 }
 /* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
 
-/*.video-pic {
-
-}
+/*
  
 .family{
 
@@ -57,16 +55,59 @@
   float: center;
 }
 
+
 .project-header{
   background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
   /* Inside auto layout */
   flex: none;
   width: 100%;
 }
-/*
-.projects {
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px;
+  gap: 16px;
 }
+.projects .cards {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: -3px 5px 10px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 256px;
+  height: 360px;
+  gap: 8px;
+}
+.projects h3 {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #FF7CAE;
+}
+.projects p {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.projects .cards img {
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+@media screen and (max-width: 680px) {
+  .projects {flex-direction: column;}
+}
+/*
 @media screen and (max-width: 620px) {
  .video-pic, .family, .bio, .project-header, .projects, .contact{
     width: 100%;
@@ -80,6 +121,8 @@
   padding: 0px;
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 16px;
+  padding-bottom: 16px;
   gap: 20px;
   background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
   width: 100%;
@@ -123,7 +166,7 @@ h2 {
 }
 
 h3 {
-  /* all caps */
+  /* smaller than h2 */
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
@@ -152,6 +195,7 @@ button {
   padding-right: 16px;
   padding-top: 8px;
   border: none;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 button a:hover {
   background: linear-gradient(176.92deg, rgba(255, 255, 255, 0) 33.42%, rgba(28, 28, 28, 0.3) 106.97%), #75E3CD;

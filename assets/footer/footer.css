@@ -5,7 +5,13 @@ information from multiple pages off W3
 .footer {
   background: linear-gradient(269.08deg, #75E3CD 8.57%, rgba(117, 227, 205, 0) 50.79%), linear-gradient(90.94deg, #FF7CAE 17.21%, rgba(255, 124, 174, 0) 59.1%), #FAC02C;
   overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
   }
+  /* MAKE ICONS INTO ROW THING AND THEN OTHER LINKS BECOME COMLUMN WHEN LITTLE*/
     
 /* Style the links inside the navigation bar */
 .footer a {
@@ -13,7 +19,7 @@ information from multiple pages off W3
     display: block;
     color: #F7EDE2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px; 
 }
 
 /* Style the links inside the navigation bar */
@@ -24,10 +30,6 @@ information from multiple pages off W3
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
 }
 
   /* Hide the link that should open and close the footer on small screens*/
@@ -53,7 +55,7 @@ information from multiple pages off W3
       }
 }
 
-/* The "responsive" class is added to the footer with JavaScript when the user clicks on the icon. This class makes the footer look good on small screens (display the links vertically instead of horizontally) */
+/* The "responsive" class is added to the footer with JavaScript when the user clicks on the icon. This class makes the footer look good on small screens (display the links vertically instead of horizontally)
 @media screen and (max-width: 680px) {
     .footer.responsive {position: relative;}
     .footer.responsive a.icon {
@@ -68,6 +70,6 @@ information from multiple pages off W3
     text-align: left;
     }
 
-}
+} */
 
 /* basically copied topnav and changed it up a bit to fit the bottom */

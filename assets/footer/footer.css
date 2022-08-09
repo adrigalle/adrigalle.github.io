@@ -1,11 +1,10 @@
 /* 
-Navigation bar 
+footer
 information from multiple pages off W3
 */
 .footer {
   background: linear-gradient(269.08deg, #75E3CD 8.57%, rgba(117, 227, 205, 0) 50.79%), linear-gradient(90.94deg, #FF7CAE 17.21%, rgba(255, 124, 174, 0) 59.1%), #FAC02C;
   overflow: hidden;
-  width: 100%;
   }
     
 /* Style the links inside the navigation bar */
@@ -15,11 +14,6 @@ information from multiple pages off W3
     color: #F7EDE2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
 }
 
 /* Style the links inside the navigation bar */

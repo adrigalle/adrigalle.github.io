@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path d="M914.334 339.206L914.334 431.812C914.334 609.659 770.16 753.833 592.313 753.833L499.708 753.833L499.708 661.227C499.708 483.38 643.881 339.206 821.729 339.206L914.334 339.206Z" id="Fill"/>
+<linearGradient gradientTransform="matrix(0.654468 5.55112e-17 -5.55112e-17 0.654468 365.71 222.016)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="824.171" x2="250.305" y1="205.097" y2="744.25">
+<stop offset="0.369835" stop-color="#fac02c"/>
+<stop offset="1" stop-color="#ff9320"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="468.153" id="Filter" width="468.153" x="468.188" y="316.602">
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="642.884" id="Filter_2" width="671.661" x="293.128" y="152.791">
+<feComponentTransfer in="SourceGraphic" result="Alpha">
+<feFuncA slope="0.426356" type="linear"/>
+</feComponentTransfer>
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="Alpha" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+<path d="M85.0054 337.322L177.611 337.322C355.458 337.322 499.632 481.495 499.632 659.343L499.632 751.948L407.026 751.948C229.179 751.948 85.0054 607.774 85.0054 429.927L85.0054 337.322Z" id="Fill_2"/>
+<linearGradient gradientTransform="matrix(9.55858e-17 -0.654468 0.654468 9.55858e-17 -32.1847 885.945)" gradientUnits="userSpaceOnUse" id="LinearGradient_2" x1="824.171" x2="250.305" y1="205.097" y2="744.25">
+<stop offset="0.369835" stop-color="#fac02c"/>
+<stop offset="1" stop-color="#ff9320"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="468.153" id="Filter_3" width="468.153" x="53.4858" y="314.717">
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="671.661" id="Filter_4" width="642.884" x="-110.325" y="286.27">
+<feComponentTransfer in="SourceGraphic" result="Alpha">
+<feFuncA slope="0.426356" type="linear"/>
+</feComponentTransfer>
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="Alpha" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+<path d="M500.06 166.504L565.542 231.986C691.299 357.743 691.299 561.636 565.542 687.393L500.06 752.874L434.578 687.393C308.821 561.636 308.821 357.743 434.578 231.986L500.06 166.504Z" id="Fill_3"/>
+<linearGradient gradientTransform="matrix(0.462779 -0.462779 0.462779 0.462779 29.2586 471.574)" gradientUnits="userSpaceOnUse" id="LinearGradient_3" x1="824.171" x2="250.305" y1="205.097" y2="744.25">
+<stop offset="0.369835" stop-color="#fac02c"/>
+<stop offset="1" stop-color="#ff9320"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="639.897" id="Filter_5" width="373.126" x="308.741" y="143.9">
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="816.112" id="Filter_6" width="410.692" x="154.967" y="36.0455">
+<feComponentTransfer in="SourceGraphic" result="Alpha">
+<feFuncA slope="0.426356" type="linear"/>
+</feComponentTransfer>
+<feDropShadow dx="-4.75598" dy="4.1588" flood-color="#000000" flood-opacity="0.186357" in="Alpha" result="Shadow" stdDeviation="13.3818"/>
+</filter>
+</defs>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<g opacity="1">
+<use fill="url(#LinearGradient)" fill-rule="nonzero" filter="url(#Filter)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636" xlink:href="#Fill"/>
+<clipPath id="ClipPath">
+<use xlink:href="#Fill"/>
+</clipPath>
+<g clip-path="url(#ClipPath)">
+<path d="M368.998 489.009C440.044 330.836 613.536 192.31 756.502 179.603C899.468 166.895 988.93 173.934 917.884 332.107C884.291 406.896 805.024 518.718 739.68 573.499C666.827 634.574 501.128 795.721 433.68 759.513C307.221 691.624 297.951 647.182 368.998 489.009Z" fill="#ff9320" fill-rule="nonzero" filter="url(#Filter_2)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636"/>
+</g>
+</g>
+<g opacity="1">
+<use fill="url(#LinearGradient_2)" fill-rule="nonzero" filter="url(#Filter_3)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636" xlink:href="#Fill_2"/>
+<clipPath id="ClipPath_2">
+<use xlink:href="#Fill_2"/>
+</clipPath>
+<g clip-path="url(#ClipPath_2)">
+<path d="M234.808 882.658C76.6347 811.611-61.891 638.12-74.5983 495.154C-87.3057 352.187-80.2672 262.725 77.9056 333.772C152.695 367.365 264.517 446.631 319.298 511.976C380.373 584.829 541.52 750.528 505.311 817.976C437.423 944.435 392.98 953.704 234.808 882.658Z" fill="#ff9320" fill-rule="nonzero" filter="url(#Filter_4)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636"/>
+</g>
+</g>
+<g opacity="1">
+<use fill="url(#LinearGradient_3)" fill-rule="nonzero" filter="url(#Filter_5)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636" xlink:href="#Fill_3"/>
+<clipPath id="ClipPath_3">
+<use xlink:href="#Fill_3"/>
+</clipPath>
+<g clip-path="url(#ClipPath_3)">
+<path d="M220.375 658.042C158.768 495.959 183.492 275.329 275.599 165.252C367.706 55.1738 435.942-3.10853 497.55 158.974C526.68 235.612 549.7 370.732 542.23 455.673C533.903 550.375 530.684 781.49 457.388 803.579C319.963 844.995 281.983 820.124 220.375 658.042Z" fill="#ff9320" fill-rule="nonzero" filter="url(#Filter_6)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="6.31783" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="26.7636"/>
+</g>
+</g>
+</g>
+</svg>

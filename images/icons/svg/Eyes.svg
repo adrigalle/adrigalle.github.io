@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path d="M203.665 155.704C8.5716 329.365-8.80204 628.3 164.86 823.393C338.521 1018.49 637.456 1035.86 832.549 862.198C1027.64 688.537 1045.02 389.602 871.354 194.509C697.693-0.584351 398.758-17.958 203.665 155.704Z" id="Fill"/>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="978.649" id="Filter" width="978.649" x="15.9293" y="30.8651">
+<feDropShadow dx="-12.8528" dy="11.239" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="8.19767"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="735.776" id="Filter_2" width="1183.77" x="-107.51" y="-293.276">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="47.1444"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="917.176" id="Filter_3" width="1080.95" x="-220.074" y="308.376">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="50"/>
+</filter>
+<linearGradient gradientTransform="matrix(1.20714 0.79632 0.614341 -1.12411 -642.563 573.412)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="971.865" x2="388.146" y1="553.353" y2="520.899">
+<stop offset="0" stop-color="#ff7cae"/>
+<stop offset="1" stop-color="#ff9320" stop-opacity="0"/>
+</linearGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="1097.17" id="Filter_4" width="776.267" x="486.636" y="13.7163">
+<feGaussianBlur in="SourceGraphic" result="Blur" stdDeviation="28.1977"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="471.645" id="Filter_5" width="714.65" x="147.929" y="284.367">
+<feDropShadow dx="-12.8528" dy="11.239" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="8.19767"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="293.319" id="Filter_6" width="293.319" x="470.004" y="403.837">
+<feDropShadow dx="-12.8528" dy="11.239" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="8.19767"/>
+</filter>
+</defs>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<g opacity="1">
+<use fill="#ff9320" fill-rule="nonzero" filter="url(#Filter)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="17.0736" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="16.3953" xlink:href="#Fill"/>
+<clipPath id="ClipPath">
+<use xlink:href="#Fill"/>
+</clipPath>
+<g clip-path="url(#ClipPath)">
+<path d="M332.265-141.657C196.125-20.4729-74.6964 132.622 36.5257 257.57C147.748 382.518 374.256 316.191 510.396 195.006C646.535 73.8218 1050.49 221.657 939.264 96.7095C828.041-28.2384 468.404-262.842 332.265-141.657Z" fill="#fac02c" fill-rule="nonzero" filter="url(#Filter_2)" opacity="1" stroke="none"/>
+<path d="M-30.7756 435.948C-137.414 530.873-106.074 786.14 23.8468 932.094C153.768 1078.05 421.948 1153.29 528.586 1058.36C635.225 963.438 520.585 711.557 710.839 611.391C828.178 549.614 509.551 644.3 243.658 652.523C117.749 656.416 3.49361 405.444-30.7756 435.948Z" fill="#75e3cd" fill-rule="nonzero" filter="url(#Filter_3)" opacity="1" stroke="none"/>
+<path d="M715.13 610.233C588.983 841.053 474.59 889.002 638.128 996.884C801.665 1104.76 1036.5 1005.1 1162.65 774.282C1288.79 543.461 983.241 210.781 819.704 102.899C656.166-4.9822 841.277 379.412 715.13 610.233Z" fill="url(#LinearGradient)" fill-rule="nonzero" filter="url(#Filter_4)" opacity="1" stroke="none"/>
+</g>
+</g>
+<path d="M190.097 508.951C190.097 394.9 336.952 302.444 518.107 302.444C699.261 302.444 846.116 394.9 846.116 508.951C846.116 623.002 699.261 715.458 518.107 715.458C336.952 715.458 190.097 623.002 190.097 508.951Z" fill="none" filter="url(#Filter_5)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="round" stroke-width="25.8399" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="17.0736" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="16.3953"/>
+<path d="M512.172 539.257C512.172 474.45 564.709 421.913 629.517 421.913C694.324 421.913 746.861 474.45 746.861 539.257C746.861 604.065 694.324 656.602 629.517 656.602C564.709 656.602 512.172 604.065 512.172 539.257Z" fill="#fdcedd" fill-rule="nonzero" filter="url(#Filter_6)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="round" stroke-width="25.8399" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="17.0736" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="16.3953"/>
+</g>
+</svg>

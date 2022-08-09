@@ -20,10 +20,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: radial-gradient(75.08% 75.08% at 50% 50%, rgba(187, 187, 187, 0.44) 0%, rgba(0, 0, 0, 0) 100%);
+  background: radial-gradient(75.08% 75.08% at 50% 50%, rgba(73, 73, 73, 0.58) 0%, rgba(0, 0, 0, 0) 100%);
   border-radius: 20px;
   padding-top: 16px;
   padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 /* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
 
@@ -65,7 +67,7 @@
 
 
 @media screen and (max-width: 620px) {
-  .hero, .video-pic, .family, .bio, .project-header, .projects, .contact{
+ .video-pic, .family, .bio, .project-header, .projects, .contact{
     width: 100%;
   }
 }

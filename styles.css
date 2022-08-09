@@ -51,26 +51,31 @@
   align-items: center;
   justify-content: center;
   max-width: 500px;
+  padding: 24px;
+  float: center;
+}
+
+.project-header{
+  background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
+  /* Inside auto layout */
+  flex: none;
+  width: 100%;
 }
 /*
-.project-header{
-
-}
-
 .projects {
 
 }
 
 .contact{
   
-}*/
+}
 
 
 @media screen and (max-width: 620px) {
  .video-pic, .family, .bio, .project-header, .projects, .contact{
     width: 100%;
   }
-}
+}*/
 
 .videoWrap {
   position: relative;
@@ -91,7 +96,7 @@ h1 {
   font-family: 'Lobster';
   font-style: normal;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 120px;
   text-align: center;
   color:#FFFFFF;
   text-shadow: inset -1.61667px 2.69444px 5.38889px rgba(0, 0, 0, 0.3);

@@ -81,6 +81,7 @@
   padding-bottom: 24px;
   gap: 20px;
   background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
+  width: 100%;
 }
 
 .videoWrap {

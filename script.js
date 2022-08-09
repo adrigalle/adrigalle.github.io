@@ -20,11 +20,21 @@ fetch('assets/nav-bar/navbar.html')
     oldelem.parentNode.replaceChild(newelem,oldelem);
 })
 
-fetch('assets/icon-bar/icon-bar.html')
+/* footer stuff, basically same as above */
+function myFooterFunction() {
+  var x = document.getElementById("myfooter");
+  if (x.className === "footer") {
+    x.className += " responsive";
+  } else {
+    x.className = "footer";
+  }
+}
+
+fetch('assets/footer/footer.html')
 .then(res => res.text())
 .then(text => {
-    let oldelem = document.querySelector("script#replace_with_iconbar");
-    let newelem = document.createElement("div");
-    newelem.innerHTML = text;
-    oldelem.parentNode.replaceChild(newelem,oldelem);
+  let oldelem = document.querySelector("script#replace_with_footer");
+  let newelem = document.createElement("div");
+  newelem.innerHTML = text;
+  oldelem.parentNode.replaceChild(newelem,oldelem);
 })

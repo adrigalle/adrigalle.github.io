@@ -22,7 +22,7 @@ information from multiple pages off W3
   }
   
   /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon, .icon-logo {
+  .topnav .icon, .topnav .icon-logo {
     display: none;
   }
   

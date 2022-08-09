@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with Vectornator (http://vectornator.io/) -->
-<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="40" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="40" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <path d="M257.269 97.4482L887.567 97.4482C946.033 97.4482 993.43 144.845 993.43 203.311L993.43 790.478C993.43 848.945 946.033 896.342 887.567 896.342L257.269 896.342C198.802 896.342 151.406 848.945 151.406 790.478L151.406 203.311C151.406 144.845 198.802 97.4482 257.269 97.4482Z" id="Fill"/>
 <filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="859.203" id="Filter" width="902.334" x="103.007" y="82.057">

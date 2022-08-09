@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with Vectornator (http://vectornator.io/) -->
-<svg height="50" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="50" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="40" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="40" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <path d="M510.595 235.388C476.668 233.027 444.816 262.322 433.375 273.375L95.5312 599.781C59.0737 635.001 59.0737 692.093 95.5312 727.312L124.719 755.5C161.176 790.719 220.261 790.719 256.719 755.5L507.812 512.938L763.062 764.844C799.926 801.226 859.699 801.226 896.562 764.844L926.062 735.719C962.926 699.336 962.926 640.351 926.062 603.969L597.512 283.222C579.08 265.031 544.521 237.75 510.595 235.388Z" id="Fill"/>
 <linearGradient gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="794.173" x2="772.333" y1="844.488" y2="427.708">

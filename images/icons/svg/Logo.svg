@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Created with Vectornator (http://vectornator.io/) -->
-<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="50" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="50" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <path d="M914.334 339.206L914.334 431.812C914.334 609.659 770.16 753.833 592.313 753.833L499.708 753.833L499.708 661.227C499.708 483.38 643.881 339.206 821.729 339.206L914.334 339.206Z" id="Fill"/>
 <linearGradient gradientTransform="matrix(0.654468 5.55112e-17 -5.55112e-17 0.654468 365.71 222.016)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="824.171" x2="250.305" y1="205.097" y2="744.25">

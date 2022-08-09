@@ -4,8 +4,8 @@ information from multiple pages off W3
 */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #F28482;
-    overflow: hidden;
+  background: linear-gradient(269.08deg, #75E3CD 8.57%, rgba(117, 227, 205, 0) 50.79%), linear-gradient(90.94deg, #FF7CAE 17.21%, rgba(255, 124, 174, 0) 59.1%), #FAC02C;
+  overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
@@ -17,12 +17,9 @@ information from multiple pages off W3
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  /* Add an active class to highlight the current page */
-  .active {
-    background-color: #84A59D;
-    color: #695A5F;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -46,6 +43,9 @@ information from multiple pages off W3
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
   }
   
   /* Style the dropdown content (hidden by default) */
@@ -66,17 +66,18 @@ information from multiple pages off W3
     text-decoration: none;
     display: block;
     text-align: left;
+    background: linear-gradient(179.26deg, #FFFFFF 0.83%, rgba(255, 147, 32, 0) 99.56%), #FAC02C;
   }
   
   /* Add a dark background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #FFB5A7 ;
+    background: linear-gradient(2.08deg, #FF9320 -0.8%, rgba(255, 147, 32, 0) 79.94%), #FAC02C;
     color: #695A5F;
   }
   
   /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #F7EDE2;
+    background: linear-gradient(2.08deg, #FF9320 -0.8%, rgba(255, 147, 32, 0) 79.94%), #FAC02C;
     color: #695A5F;
   }
   
@@ -93,6 +94,9 @@ information from multiple pages off W3
     margin-top: 8px;
     margin-right: 16px;
     font-size: 17px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
   }
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */

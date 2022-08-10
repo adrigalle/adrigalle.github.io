@@ -54,11 +54,11 @@
 }
 
 
+/* family images row */
 .img-container{
   float: left;
-  width: 50%;
+  width: 33.33%;
   padding: 5px;
-  max-width: 800px;
 }
 .clearfix::after {
   content: "";

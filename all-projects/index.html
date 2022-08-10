@@ -23,7 +23,26 @@
 <body class="content">
     <!-- navigation bar -->
     <div>
-        <script id="replace_with_navbar" src="../script.js"></script>
+        <script id="replace_with_navbar">
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                x.className = "topnav";
+                }
+            }
+
+            fetch('../assets/nav-bar/navbar.html')
+            .then(res => res.text())
+            .then(text => {
+                let oldelem = document.querySelector("script#replace_with_navbar");
+                let newelem = document.createElement("div");
+                newelem.innerHTML = text;
+                oldelem.parentNode.replaceChild(newelem,oldelem);
+            })
+        </script>
+
     </div>
 
     <!--<div id="preloader"></div>-->
@@ -79,7 +98,25 @@
     </script>
 
     <footer>
-        <script id="replace_with_footer" src="../script.js"></script>
+        <script id="replace_with_footer">
+            function myFooterFunction() {
+                var x = document.getElementById("myfooter");
+                if (x.className === "footer") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "footer";
+                }
+            }
+
+        fetch('../assets/footer/footer.html')
+        .then(res => res.text())
+        .then(text => {
+        let oldelem = document.querySelector("script#replace_with_footer");
+        let newelem = document.createElement("div");
+        newelem.innerHTML = text;
+        oldelem.parentNode.replaceChild(newelem,oldelem);
+        })
+        </script>
     </footer>
 
 </body>

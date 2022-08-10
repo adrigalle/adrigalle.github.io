@@ -47,6 +47,7 @@ information from multiple pages off W3
     text-decoration: none;
     margin-right: 16px;
     gap: 24px;
+    z-index: 10;
 }
 
 
@@ -54,6 +55,7 @@ information from multiple pages off W3
 .footer b:hover {
   background: rgba(0, 0, 0, 0.377);
     padding: 8px 16px;
+    z-index: 0;
 }
 .footer a:hover {
   background: rgba(0, 0, 0, 0.377);
@@ -65,10 +67,6 @@ information from multiple pages off W3
 @media screen and (max-width: 680px) {
     .footer, .footer .menu-items {
     flex-direction: column;
-    }
-    .footer .socials {
-      justify-content:space-evenly;
-      max-width: 300px;
     }
     .footer {
       padding-top: 16px;

@@ -24,6 +24,7 @@ information from multiple pages off W3
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     color: #F7EDE2; 
     text-align: center;
     /*padding: 14px 16px;*/
@@ -66,7 +67,8 @@ information from multiple pages off W3
     flex-direction: column;
     }
     .footer .socials {
-      justify-content: center;
+      justify-content:space-evenly;
+      max-width: 300px;
     }
     .footer {
       padding-top: 16px;

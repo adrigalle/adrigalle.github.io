@@ -58,13 +58,8 @@ body {
 }
 /* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
 
-/*
- 
-.family{
 
-}*/
-
-
+/* intro video info */
 .videoWrap {
   position: relative;
   width: 100%;
@@ -93,7 +88,7 @@ body {
   display: table;
 }
 
-
+/* bio info */
 .bio{
   align-items: center;
   justify-content: center;
@@ -103,14 +98,14 @@ body {
 }
 
 
-/* project rows */
+/* project header */
 .project-header{
   background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
   /* Inside auto layout */
   flex: none;
   width: 100%;
-
 }
+/* project cards */
 .projects {
   display: flex;
   flex-direction: row;
@@ -125,7 +120,6 @@ body {
   box-shadow: -3px 5px 10px 1px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   width: 256px;
-  height: 360px;
   gap: 8px;
 }
 .projects h3 {
@@ -156,6 +150,7 @@ body {
   .projects {flex-direction: column;}
 }
 
+/* contact div info */
 .contact{
   display: flex;
   flex-direction: column;
@@ -171,7 +166,7 @@ body {
 }
 
 
-
+/* general text info */
 h1 {
   /* for big titles */
   font-family: 'Raleway', sans-serif;
@@ -217,7 +212,7 @@ p {
   z-index: 5;
 }
 
-
+/* button info that is probably wrong */
 button {
   background: linear-gradient(176.06deg, rgba(255, 255, 255, 0.3) 19.31%, rgba(255, 255, 255, 0) 49.34%), #75E3CD;
   box-shadow: -3px 5px 10px 1px rgba(0, 0, 0, 0.25);

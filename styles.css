@@ -113,6 +113,7 @@ body {
   padding: 16px 0px;
   gap: 16px;
 }
+/* actual cards */
 .projects .cards {
   display: flex;
   flex-direction: column;
@@ -121,6 +122,22 @@ body {
   border-radius: 20px;
   width: 240px;
   gap: 8px;
+}
+.projects .cards .links {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 16px;
+}
+.projects .cards .links a {
+  text-align: center;
+  color: #FF9320;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .projects h3 {
   font-family: 'Comfortaa';
@@ -145,6 +162,7 @@ body {
   margin-top: 16px;
   margin-left: 16px;
   margin-right: 16px;
+  border-radius: 12px;
 }
 @media screen and (max-width: 680px) {
   .projects {flex-direction: column;}

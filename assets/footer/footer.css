@@ -6,70 +6,71 @@ information from multiple pages off W3
   background: linear-gradient(269.08deg, #75E3CD 8.57%, rgba(117, 227, 205, 0) 50.79%), linear-gradient(90.94deg, #FF7CAE 17.21%, rgba(255, 124, 174, 0) 59.1%), #FAC02C;
   overflow: hidden;
   width: 100vw;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0px; /* top right bottom left */
+  justify-content: space-between; /* makes items take up whole space */
+  /* text/font info */
   font-size: 17px;
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
   }
-  /* MAKE ICONS INTO ROW THING AND THEN OTHER LINKS BECOME COMLUMN WHEN LITTLE*/
+
+  
     
-/* Style the links inside the navigation bar */
-.footer a {
-    float: left;
-    display: block;
-    color: #F7EDE2;
+/* turns socials into a row */
+.footer .socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #F7EDE2; 
     text-align: center;
-    padding: 14px 16px; 
+    /*padding: 14px 16px;*/
+    gap: 16px; 
+    padding-left: 16px;
 }
 
-/* Style the links inside the navigation bar */
-.footer b {
-    float: right;
-    display: block;
+/* turns menu items into row */
+.footer .menu-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*float: right;
+      aligns items vertically
+    justify-content: right; aligns horizontally 
+    align-self: right; */
     color: #F7EDE2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 16px;
+    gap: 24px;
 }
-
-  /* Hide the link that should open and close the footer on small screens*/
-  .footer .icon {
-    display: none;
-  }
 
 
 /* Add a dark background on footer links and the dropdown button on hover */
 .footer b:hover {
-    background: linear-gradient(2.08deg, #FF9320 -0.8%, rgba(255, 147, 32, 0) 79.94%), #FAC02C;
-    color: #695A5F;
+  background: rgba(0, 0, 0, 0.377);
+    padding: 8px 16px;
+}
+.footer a:hover {
+  background: rgba(0, 0, 0, 0.377);
+  padding: 2px;
+  border-radius: 12px;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the footer (.icon) */
 @media screen and (max-width: 680px) {
-    .footer b {
-    display: none;
+    .footer, .footer .menu-items {
+    flex-direction: column;
     }
-    .footer a.icon {
-        float: right;
-        display: block;
-      }
+    .footer .socials {
+      justify-content: center;
+    }
+    .footer {
+      padding-top: 16px;
+    }
 }
-
-/* The "responsive" class is added to the footer with JavaScript when the user clicks on the icon. This class makes the footer look good on small screens (display the links vertically instead of horizontally)
-@media screen and (max-width: 680px) {
-    .footer.responsive {position: relative;}
-    .footer.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-
-    .footer.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    }
-
-} */
 
 /* basically copied topnav and changed it up a bit to fit the bottom */

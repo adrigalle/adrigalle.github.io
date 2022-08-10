@@ -1,4 +1,7 @@
-
+/* text thingies to copy and paste
+font-family: 'Comfortaa', cursive;
+font-family: 'Raleway', sans-serif;
+*/
 .content {
   display: flex;
   flex-direction: column;
@@ -42,6 +45,7 @@
 
 .videoWrap {
   position: relative;
+  width: 100%;
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   }
@@ -148,7 +152,7 @@
 
 h1 {
   /* for big titles */
-  font-family: 'Lobster', cursive;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   text-align: center;

@@ -41,7 +41,8 @@ information from multiple pages off W3
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    gap: 36px;
+    gap: 24px;
+    min-width: 200px;
 }
 a:link {
   color: white;
@@ -51,14 +52,13 @@ a:link {
 
 /* Add a dark background on footer links and the dropdown button on hover */
 .footer .menu-items a:hover {
-  background: rgba(0, 0, 0, 0.377);
-  padding: 8px 16px;
+  background: rgba(109, 109, 109, 0.158);
   color: whitesmoke;
   text-decoration: none;
+  border-radius: 12px;
 }
 .footer .socials a:hover {
-  background: rgba(0, 0, 0, 0.377);
-  padding: 2px;
+  background: rgba(109, 109, 109, 0.158);
   border-radius: 12px;
 }
 

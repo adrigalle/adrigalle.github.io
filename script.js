@@ -38,3 +38,16 @@ fetch('assets/footer/footer.html')
   newelem.innerHTML = text;
   oldelem.parentNode.replaceChild(newelem,oldelem);
 })
+
+/* text animation for header in hero */
+var i = 0;
+var txt = "I'm a web developer!"; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("animate").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}

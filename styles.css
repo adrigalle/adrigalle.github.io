@@ -35,6 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 1em;
   /* text styles */
   text-align: center;
   color: white;
@@ -190,7 +191,7 @@ h2 {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 3vw;
   text-align: center;
   color: #FF9320;
   z-index: 5;
@@ -200,7 +201,7 @@ h3 {
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2vw;
   text-align: center;
   vertical-align: center;
   color: white;

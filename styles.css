@@ -31,6 +31,7 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/illustrations/Mountains.png"); /* linear-gradient adds darker filter type thing on top */
   background-color: white;
   height: 100vh;
+  width: 100vh;
   /* flexbox for content */
   display: flex;
   justify-content: center;
@@ -45,7 +46,7 @@ body {
   background-attachment: fixed; /* makes stay in same position */
   /* source https://codetheweb.blog/fullscreen-image-hero/ */
 }
-.hero.centered {
+.hero.content {
   position: absolute;
   top: 50%;
   left: 50%;

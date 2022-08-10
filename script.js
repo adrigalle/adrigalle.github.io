@@ -40,14 +40,17 @@ fetch('assets/footer/footer.html')
 })
 
 /* text animation for header in hero */
-var i = 0;
-var txt = "I'm a web developer!"; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("animate").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+document.addEventListener("DOMContentLoaded", function () {
+  let letter = 0;
+  const text = "I'm a web developer.";
+  function typeText() {
+    if (letter < text.length) {
+      document.getElementById("type-js").innerHTML += text.charAt(letter);
+      letter++;
+      let speed = Math.floor(Math.random() * 150) + 50;
+      setTimeout(typeText, speed);
+    }
   }
-}
+  typeText();
+});
+/* from https://w3collective.com/animated-typing-text-effect/ */

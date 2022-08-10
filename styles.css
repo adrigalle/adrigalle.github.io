@@ -56,6 +56,16 @@ body {
   padding-left: 24px;
   padding-right: 24px;
 }
+#type-js {  
+  display: inline-block;
+  line-height: 1;
+  border-right: 3px solid #fff;  
+  animation: cursor 1s step-end infinite;
+}
+@keyframes cursor {
+  from, to { border-color: transparent; }
+  50% { border-color: #fff; }
+}
 /* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
 
 

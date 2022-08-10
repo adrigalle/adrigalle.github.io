@@ -2,6 +2,18 @@
 font-family: 'Comfortaa', cursive;
 font-family: 'Raleway', sans-serif;
 */
+html {
+  min-height: 100%;
+  /* makes sure fill viewport is covered */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* so that default is not serif font */
+}
+
+
 .content {
   display: flex;
   flex-direction: column;
@@ -15,12 +27,22 @@ font-family: 'Raleway', sans-serif;
 
 
 .hero { /* hero holding image and text */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/illustrations/Mountains.png"); /* linear-gradient adds darker filter type thing on top */
   background-color: white;
-  width: 100%;
-  position: relative;
+  height: 100vh;
+  /* flexbox for content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text styles */
   text-align: center;
   color: white;
-  overflow-x: hidden;
+  /*background styling */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; /* makes sure background covers entire hero */
+  background-attachment: fixed; /* makes stay in same position */
+  /* source https://codetheweb.blog/fullscreen-image-hero/ */
 }
 .hero.centered {
   position: absolute;

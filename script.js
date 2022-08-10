@@ -11,7 +11,7 @@ function myFunction() {
     }
   }
 
-fetch('adrigalle.github.io/assets/nav-bar/navbar.html')
+fetch('assets/nav-bar/navbar.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_navbar");
@@ -30,7 +30,7 @@ function myFooterFunction() {
   }
 }
 
-fetch('adrigalle.github.io/assets/footer/footer.html')
+fetch('assets/footer/footer.html')
 .then(res => res.text())
 .then(text => {
   let oldelem = document.querySelector("script#replace_with_footer");

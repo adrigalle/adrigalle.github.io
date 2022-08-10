@@ -15,6 +15,7 @@ information from multiple pages off W3
   font-family: 'Comfortaa';
   font-style: normal;
   font-weight: 400;
+  color: white;
   }
 
   
@@ -37,27 +38,21 @@ information from multiple pages off W3
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*float: right;
-      aligns items vertically
-    justify-content: right; aligns horizontally 
-    align-self: right; */
-    color: #F7EDE2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-right: 16px;
-    gap: 24px;
+    gap: 36px;
     z-index: 10;
 }
 
 
 /* Add a dark background on footer links and the dropdown button on hover */
-.footer b:hover {
+.footer .menu-items a:hover {
   background: rgba(0, 0, 0, 0.377);
     padding: 8px 16px;
     z-index: 0;
 }
-.footer a:hover {
+.footer .socials a:hover {
   background: rgba(0, 0, 0, 0.377);
   padding: 2px;
   border-radius: 12px;

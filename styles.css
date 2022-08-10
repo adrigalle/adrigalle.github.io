@@ -6,6 +6,7 @@
   isolation: isolate;
   position: relative;
   background: #FFFFFF;
+  z-index: 0;
 }
 
 
@@ -133,12 +134,12 @@
 }
 
 
-/*
+
 @media screen and (max-width: 620px) {
- .video-pic, .family, .bio, .project-header, .projects, .contact{
+ .video {
     width: 100%;
   }
-}*/
+}
 
 .contact{
   display: flex;

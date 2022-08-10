@@ -43,7 +43,7 @@ information from multiple pages off W3
     text-decoration: none;
     gap: 36px;
 }
-a:link {
+.menu-items a {
   color: white;
   text-decoration: none;
 }

@@ -51,7 +51,7 @@ information from multiple pages off W3
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    z-index: 10;
+    z-index: 1;
   }
   
   /* Style the links inside the dropdown */
@@ -80,7 +80,6 @@ information from multiple pages off W3
   /* Show the dropdown menu when the user moves the mouse over the dropdown button */
   .dropdown:hover .dropdown-content {
     display: block;
-    overflow: visible;
   }
   
 /* Style the search box inside the navigation bar */

@@ -38,12 +38,7 @@
 
 }*/
 
-.video {
-  display: block;
-  max-width: 800px;
-  margin: 24px;
-  float: center;
-}
+
 .videoWrap {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
@@ -131,14 +126,6 @@
 }
 @media screen and (max-width: 680px) {
   .projects {flex-direction: column;}
-}
-
-
-
-@media screen and (max-width: 620px) {
- .video {
-    width: 100%;
-  }
 }
 
 .contact{

@@ -66,7 +66,7 @@ body {
   padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   }
-/* this makes the video keep its ratio, and be fully in frame in different screens */
+/* this makes the video keep its ratio, and be fully in frame in different screens 
 .videoWrap iframe {
   position: absolute;
   top: 0;
@@ -75,10 +75,28 @@ body {
   height: 100%;
 }
 @media screen and (min-width: 680px) {
-  .videowrap iframe {
-    max-width: 560px;
-    max-height: 315px;
+  .videoWrap iframe {
+    width: 80%;
+    height: 80%;
     position: center center;
+  }
+}*/
+.videoWrap {
+  text-align: center;
+}
+@media screen and (max-width: 560px) {
+  .videoWrap {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .videoWrap iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 

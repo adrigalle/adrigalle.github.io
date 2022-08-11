@@ -76,6 +76,7 @@ body {
     height: 100%;
     width: 100%;
     position: absolute;
+    margin: 24px 0;
   }
 }
 /* info on keeping smaller on large screens but full on smaller screens: https://forum.freecodecamp.org/t/help-resizing-embed-youtube-video-with-css/210568/4 */

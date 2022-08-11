@@ -59,28 +59,7 @@ body {
 /* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
 
 
-/* intro video info 
-.videoWrap {
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%; /* 16:9 
-  height: 0;
-  }
-/* this makes the video keep its ratio, and be fully in frame in different screens 
-.videoWrap iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-@media screen and (min-width: 680px) {
-  .videoWrap iframe {
-    width: 80%;
-    height: 80%;
-    position: center center;
-  }
-}*/
+/* intro video info */
 .videoWrap {
   text-align: center;
 }
@@ -99,6 +78,7 @@ body {
     position: absolute;
   }
 }
+/* info on keeping smaller on large screens but full on smaller screens: https://forum.freecodecamp.org/t/help-resizing-embed-youtube-video-with-css/210568/4 */
 
 
 /* family images row */

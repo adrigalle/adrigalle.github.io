@@ -2,62 +2,58 @@
 font-family: 'Comfortaa', cursive;
 font-family: 'Raleway', sans-serif;
 */
-/*html {
-  min-height: 100%;
-  min-width: 100%;
-   makes sure fill viewport is covered 
-}*/
-body {
+
+body, html {
+  height: 100%;
+  padding: 0;
   margin: 0;
+  background: white;
   font-family: sans-serif;
   /* so that default is not serif font */
+  display: block;
 }
-
-
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  isolation: isolate;
-  position: relative;
-  background: #FFFFFF;
-  z-index: 0;
-}
-
 
 .hero { /* hero holding image and text */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.349)), url("images/photographs/colorado-landscape.jpg"); /* linear-gradient adds darker filter type thing on top */
-  background-color: white;
+  position: relative;
   height: 100vh;
-  width: 100vw;
-  /* flexbox for content */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-  /* text styles */
-  text-align: center;
-  color: white;
-  /*background styling */
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; /* makes sure background covers entire hero */
-  background-attachment: fixed; /* makes stay in same position */
-  /* source https://codetheweb.blog/fullscreen-image-hero/ */
+  /*overflow: hidden; */
+  background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.349)), url(images/photographs/colorado-landscape.jpg) no-repeat center;
+  background-size: cover;
 }
-.hero.content {
+.hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding-top: 16px;
-  padding-bottom: 8px;
-  padding-left: 24px;
-  padding-right: 24px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
 }
-/* found info on centering text over an image at https://www.w3schools.com/howto/howto_css_image_text.asp just needed toadd container info, and info on centered text */
+.hero-content h1 {
+  font-size: 11vw;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+.hero-content h1 span {
+  border: 1vw solid white;
+  padding: 6px 14px;
+  display: inline-block;
+}
+.des {
+  margin: 20px;
+  display: block;
+  font-size: 3vw;
+  color: white;
+}
 
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+} /* I need to add this AFTER hero and header and BEFORE footer*/
 
 /* intro video info */
 .videoWrap {
@@ -96,8 +92,6 @@ body {
 
 /* bio info */
 .bio{
-  align-items: center;
-  justify-content: center;
   max-width: 800px;
   padding: 24px;
   float: center;
@@ -131,6 +125,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
   padding: 16px 0px;
   gap: 16px;
 }

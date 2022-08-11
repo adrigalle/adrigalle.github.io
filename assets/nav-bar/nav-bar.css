@@ -23,7 +23,7 @@ information from multiple pages off W3
   }
   
   /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon, .topnav .icon-logo {
+  .topnav .icon, .topnav .icon-logo, .topnav .icon-x {
     display: none;
   }
   
@@ -113,10 +113,18 @@ information from multiple pages off W3
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
+    /*.topnav.responsive a.icon {
       position: absolute;
       right: 0;
       top: 0;
+    } */
+    .topnav.responsive a.icon {
+      display: none;
+      float: right;
+    }
+    .topnav.responsive a.icon-x {
+      display: block;
+      float: right;
     }
     .topnav.responsive a {
       float: none;

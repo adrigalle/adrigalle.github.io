@@ -75,7 +75,11 @@ body {
   height: 100%;
 }
 @media screen and (min-width: 680px) {
-  .videowrap iframe {max-width: 560;}
+  .videowrap iframe {
+    max-width: 560px;
+    max-height: 315px;
+    position: center center;
+  }
 }
 
 

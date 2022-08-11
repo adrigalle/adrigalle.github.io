@@ -27,7 +27,7 @@ body {
 
 
 .hero { /* hero holding image and text */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("images/illustrations/Mountains.png"); /* linear-gradient adds darker filter type thing on top */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.349)), url("images/photographs/colorado-landscape.jpg"); /* linear-gradient adds darker filter type thing on top */
   background-color: white;
   height: 100vh;
   width: 100vw;
@@ -148,8 +148,8 @@ body {
   display: flex;
   flex-direction: row;
   align-content: center;
-  justify-content: center;
-  gap: 16px;
+  justify-content: space-evenly;
+  margin-bottom: 8px;
 }
 .projects .cards .links a {
   text-align: center;
@@ -178,6 +178,7 @@ body {
   color: #000000;
   margin-left: 16px;
   margin-right: 16px;
+  margin-bottom: 0;
 }
 .projects .cards img {
   margin-top: 16px;

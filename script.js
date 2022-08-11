@@ -39,18 +39,6 @@ fetch('assets/footer/footer.html')
   oldelem.parentNode.replaceChild(newelem,oldelem);
 })
 
+
+
 /* text animation for header in hero */
-document.addEventListener("DOMContentLoaded", function () {
-  let letter = 0;
-  const text = "I'm a web developer.";
-  function typeText() {
-    if (letter < text.length) {
-      document.getElementById("type-js").innerHTML += text.charAt(letter);
-      letter++;
-      let speed = Math.floor(Math.random() * 150) + 50;
-      setTimeout(typeText, speed);
-    }
-  }
-  typeText();
-});
-/* from https://w3collective.com/animated-typing-text-effect/ */

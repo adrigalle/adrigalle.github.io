@@ -1,5 +1,5 @@
 
-function Projects() {
+function ProjectCard() {
     const [projList, setProjList] = React.useState();
     // need to bring in the item, set up so that I can grab all of the individual things
 

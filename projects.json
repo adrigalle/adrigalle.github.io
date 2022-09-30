@@ -8,6 +8,13 @@
             "repoURL": "https://github.com/adrigalle/todo-list"
         },
         {
+            "name": "Fetch-Data",
+            "description": "This s sort of a little search engine that gets data from HackerNews",
+            "image": "",
+            "playURL": "https://adrigalle.github.io/fetch-data/",
+            "repoURL": "https://github.com/adrigalle/fetch-data"
+        },
+        {
             "name": "Eyes",
             "description": "This is neat little pair of eyes that follow your cursor across the page",
             "image": "",

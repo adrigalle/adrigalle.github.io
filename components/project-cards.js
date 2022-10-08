@@ -16,3 +16,4 @@ function ProjectCard() {
     )
 }
 // might need to make a separate component for the little play and repo things
+// might even be able to create the little componenets thing for just one page for each thing, maybe have a better, longer description of it, maybe even little video that just pulls from the json file, but only do once....

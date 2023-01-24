@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c8a4b5ca.css",
-    "main.js": "/static/js/main.6705f76c.js",
+    "main.js": "/static/js/main.6f26726f.js",
     "static/media/colorado-landscape.jpg": "/static/media/colorado-landscape.b97aff589d402ea4f1ce.jpg",
     "index.html": "/index.html",
     "main.c8a4b5ca.css.map": "/static/css/main.c8a4b5ca.css.map",
-    "main.6705f76c.js.map": "/static/js/main.6705f76c.js.map"
+    "main.6f26726f.js.map": "/static/js/main.6f26726f.js.map"
   },
   "entrypoints": [
     "static/css/main.c8a4b5ca.css",
-    "static/js/main.6705f76c.js"
+    "static/js/main.6f26726f.js"
   ]
 }

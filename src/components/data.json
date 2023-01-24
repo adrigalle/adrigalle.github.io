@@ -1,0 +1,93 @@
+{
+    "projects":[
+        {
+            "id": "AG-Photography-etc",
+            "minidesc": "This is my hobby website to showcase my photography",
+            "image": "../images/project-images/ag-photography.png",
+            "demo": "https://www.agphotographyetc.com/",
+            "repo": "https://github.com/adrigalle/agphoto-blog",
+            "description": "This is my family photography website. I did originally make it using Showit, but because I wanted to practice more, I decided to make it myself. It did start as a starter template from Next.js and then I added in all the elements needed to make it look like my brand. This website is deployed with vercel."
+        },
+        {
+            "id": "Todo-List",
+            "minidesc": "This little todo list to add new items, delete them, or complete them",
+            "image": "../images/project-images/todo-list.png",
+            "demo": "https://adrigalle.github.io/todo-list/",
+            "repo": "https://github.com/adrigalle/todo-list",
+            "description": "This cute To-Do list allows you to add new todos to the list. They can be deleted or updated. They can also be done, and once done, they show up under the todos as an All Done item. If there was a mistake, they can be un-done."
+        },
+        {
+            "id": "Portfolio",
+            "minidesc": "This site! Cute little site showcasing some cute code",
+            "image": "../images/project-images/portfolio.png",
+            "demo": "https://adrigalle.github.io",
+            "repo": "https://github.com/adrigalle/adrigalle.github.io",
+            "description": "The amount of time that it took me to decide on the color scheme is unreasonable. I knew about this project for at least 6 weeks and it took 4 of those weeks to finally land on the design. It took too long to decide between a super clean dark look like every other coder or go cute, but honestly how often will I have the oportunity to make super cute colorful sites?"
+        },
+        {
+            "id": "BadBank",
+            "minidesc": "This is a little fake bank made using create-react-app",
+            "image": "../images/project-images/badbank.png",
+            "demo": "https://adriana-gallegos-banking-application.s3.us-west-1.amazonaws.com/index.html",
+            "repo": "https://github.com/adrigalle/badbank",
+            "description": "This app was created using create-react-app. It is currently only a front-end app that will have back-end soon. It was deployed to an S3 bucket on AWS. If you choose to play with it please do not enter any important information as it is not safe at all."
+        },
+        {
+            "id": "React-Cart",
+            "minidesc": "A little app that lets you add items to your cart",
+            "image": "../images/project-images/react-cart.png",
+            "demo": "https://adrigalle-reactcart01.s3.us-west-1.amazonaws.com/index.html",
+            "repo": "https://github.com/adrigalle/badbank",
+            "description": "This app was created using create-react-app. It is currently only a front-end app that only allows for items to be added to the cart (images are randomly added at every reload). The items are then added up to show you your total. It was deployed to an S3 bucket on AWS. The store can be restocked, currently they are added on at the bottom and any addition to the cart after that will be doubled."
+        },
+        {
+            "id": "Tic-Tac-Toe",
+            "minidesc": "This little game of tic-tac-toe that you can play with a friend",
+            "image": "../images/project-images/tic-tac-toe.png",
+            "demo": "https://adrigalle.github.io/tic-tac-toe/",
+            "repo": "https://github.com/adrigalle/tic-tac-toe",
+            "description": "This game is made using mostly Javascript. it is a simple little game of tic-tac-toe where the first player is X and then the second player is O. Once there is a winner, the game will exclaim who won. At the moment the board is not disabled when the game is over."
+        },
+        {
+            "id": "Fetch-Data",
+            "minidesc": "This is sort of a little search engine that gets data from HackerNews",
+            "image": "../images/project-images/fetch-data.png",
+            "demo": "https://adrigalle.github.io/fetch-data/",
+            "repo": "https://github.com/adrigalle/fetch-data",
+            "description": "This Uses useEffect and useReduce to manage data it fetches from the HackerNews API. Currently the navigation bar will take you to a json file with many numbers."
+        },
+        {
+            "id": "Eyes",
+            "minidesc": "This is neat little pair of eyes that follow your cursor across the page",
+            "image": "../images/project-images/eyes.png",
+            "demo": "https://adrigalle.github.io/eyes/",
+            "repo": "https://github.com/adrigalle/eyes.git",
+            "description": "This was a fun little exercise that involved nested divs to create eyes that follow your cursor around the page. Eventually I would love to add a little toggle that switches between one set of eyes to two."
+        },
+        {
+            "id": "Pacmen",
+            "minidesc": "This is a little factory where you add a bunch of cute pink pacmen and then watch them bounce around the page",
+            "image": "../images/project-images/pacmen.png",
+            "demo": "https://adrigalle.github.io/pacmen/",
+            "repo": "https://github.com/adrigalle/pacmen.git",
+            "description": "This exercise lets you add as many PacMen as you would like to the screen. Once you are satisfied with the number of PacMen, you can start the game and they will all start bouncing around at varying velocities. You can continue to add the PacMen after it starts if you want."
+        },
+        {
+            "id": "Bus-Tracker",
+            "minidesc": "This is a little map that shows the bus stops from MIT to Harvard when you click the button",
+            "image": "../images/project-images/bus-tracker.png",
+            "demo": "https://adrigalle.github.io/real-time-bus-tracker/",
+            "repo": "https://github.com/adrigalle/real-time-bus-tracker.git",
+            "description": "This is meant to follow a bus in real-time using mapbox. But at the moment it just follows a list of data-points on the map. Eventually it will track a bus route."
+        },
+        {
+            "id": "Bouncing-ball",
+            "minidesc": "Watch a little ball bounce around the page and change colors everytime it hits a wall",
+            "image": "../images/project-images/bouncing-ball.png",
+            "demo": "https://adrigalle.github.io/bouncing-ball/",
+            "repo": "https://github.com/adrigalle/bouncing-ball.git",
+            "description": "This was our first exercise that involves a little ball that bounces off the walls and changes color everytime it does. Though I know it is simple and I have newer/cooler projects to show, this is the one that started it all and I will probably always have it here since it is awesome and the one that sparked my passion for coding."
+        }
+    ]
+}
+

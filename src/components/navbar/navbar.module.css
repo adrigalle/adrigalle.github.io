@@ -1,0 +1,22 @@
+.navbar {
+    background: linear-gradient(90deg, #FF7CAE 2.47%, #FF9320 81.14%, #FAC02C 143.87%);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+}
+.navbar h1 {
+    color: #f1356d;
+}
+.navbar a {
+    margin-left: 16px;
+    color: white !important;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 20px;
+}
+.navbar a:hover {
+    color: #f1356d !important;
+}

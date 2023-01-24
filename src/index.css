@@ -1,0 +1,248 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: clip;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+a {
+  text-decoration: none !important;
+  color: #FF7CAE !important;
+}
+a:hover {
+  color: #f1356d !important;
+}
+button {
+  background: linear-gradient(0deg, #FF7CAE 2.41%, #FF9320 59.65%, #FAC02C 105.28%);
+  box-shadow: -3px 5px 10px 1px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: white;
+  border-radius: 15px !important;
+}
+button:hover {
+  background: linear-gradient(0deg, #FF7CAE 2.41%, #FF9320 96.82%, #FAC02C 172.09%);
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* general text info */
+h1 {
+  /* for big titles */
+  /* font-family: 'Verdana', sans-serif !important; */
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 60px !important;
+  padding: 50px 0;
+}
+h2 {
+  /* larger heading */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  text-align: center;
+  color: #FF9320;
+}
+h3 {
+  /* smaller than h2 */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2vw;
+  text-align: center;
+  vertical-align: center;
+  color: white;
+}
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333;
+}
+
+
+.app {
+  width: 100vw;
+}
+
+.content {
+  width: 100vw;
+  margin: 0;
+}
+
+.block {
+  max-width: 850px; 
+  width: 80vw;
+  margin:20px auto; 
+  text-align:justify;
+}
+.fullContainer {
+  width: 100vw;
+  padding: 0 0;
+  margin: 0 0;
+}
+.rowToCol {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .rowToCol {
+    flex-direction: column;
+  }
+}
+
+
+/* ************* Socials **************** */
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #F7EDE2; 
+  text-align: center;
+  /*padding: 14px 16px;*/
+  gap: 36px; 
+}
+.socials a:hover {
+  background: rgba(109, 109, 109, 0.158);
+  border-radius: 12px;
+}
+
+
+/* ****************** home ******************* */
+
+/* Hero stuff */
+.hero { /* hero holding image and text */
+  position: relative;
+  height: 100vh;
+  /*overflow: hidden; */
+  background: linear-gradient(rgba(0, 0, 0, 0.281),rgba(0, 0, 0, 0.349)), url(/public/images/photographs/colorado-landscape.jpg) no-repeat center;
+  background-size: cover;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+
+}
+.hero-content h1 {
+  font-size: 11vw;
+  letter-spacing: 0.2em;
+  margin: 0;
+
+}
+.hero-content h1 span {
+  border: 1vw solid white;
+  padding: 6px 14px;
+  display: inline-block;
+  color: white !important;
+  font-weight: bolder;
+}
+.des {
+  margin: 20px;
+  display: block;
+  font-size: 3vw;
+  color: white;
+}
+
+/* intro video info */
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+/* bio images */
+.img-container{
+  float: left;
+  width: 33vw;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* contact div info */
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  gap: 20px;
+  background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
+  width: 100%;
+}
+
+
+/* projects */
+.project-header{
+  background: linear-gradient(94.36deg, #FF7CAE 0.64%, rgba(255, 124, 174, 0) 104.33%), linear-gradient(82.83deg, #FF9320 -0.81%, rgba(255, 147, 32, 0) 88.36%), #FAC02C;
+  /* Inside auto layout */
+  flex: none;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/* project previews / list */
+.project-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 16px 0px;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: auto;
+}
+
+

@@ -14,7 +14,7 @@ return (
             <Navbar id="navbar" className={ styles.navbar } sticky="top" bg="light" expand="sm">
 
                 <Navbar.Brand href="/" style={{ margin: "0 10px", padding: "0 0" }}>
-                    <img src='/images/icons/adrig-Logo.png' width={50} height={50}/>
+                    <img src='/images/icons/Adrig-Logo.png' width={50} height={50}/>
                 </Navbar.Brand>
  
                     <Nav className='me-auto' style={{ flexDirection: 'row'}}>
@@ -31,7 +31,7 @@ return (
             <Navbar id="navbar" className={ styles.navbar } sticky="top" bg="light" expand="sm">
 
                 <Navbar.Brand href="/" style={{ margin: "0 10px", padding: "0 0" }}>
-                    <img src='/images/icons/adrig-Logo.png' width={50} height={50}/>
+                    <img src='/images/icons/Adrig-Logo.png' width={50} height={50}/>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ margin: "0 10px 0 auto", border: 'none', background: 'none', boxShadow: 'none' }} />
@@ -41,7 +41,7 @@ return (
 
                         <Nav.Link href="#top">Home</Nav.Link>
                         <Nav.Link href="#bio">Bio</Nav.Link>
-                        <Link to="/projects/#top">Projects</Link>
+                        <Link to="/projects">Projects</Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
 
                     </Nav>

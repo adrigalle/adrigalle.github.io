@@ -19,8 +19,8 @@ return (
                     <Socials />
                     <div className={ styles.links }>
                         <Link to="/">Home</Link>
-                        <a href='#intro'>About</a>
-                        <Link to="/projects/#top">Projects</Link>
+                        <a href='#bio'>About</a>
+                        <Link to="/projects">Projects</Link>
                         <a href='#contact'>Contact</a>
                     </div>
                 </div>

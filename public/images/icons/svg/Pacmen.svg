@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient cx="561.5" cy="607.835" gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="RadialGradient" r="812.346">
+<stop offset="0.417355" stop-color="#ff7cae"/>
+<stop offset="1" stop-color="#fdcedd"/>
+</radialGradient>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="919.791" id="Filter" width="905.552" x="39.6043" y="78.3296">
+<feDropShadow dx="-17.3754" dy="15.1937" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="8.19767"/>
+</filter>
+<filter color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse" height="219.633" id="Filter_2" width="219.633" x="355.166" y="238.576">
+<feDropShadow dx="-12.8528" dy="11.239" flood-color="#000000" flood-opacity="0.186357" in="SourceGraphic" result="Shadow" stdDeviation="8.19767"/>
+</filter>
+</defs>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M516.875 79.5312C271.937 79.5312 73.375 278.093 73.375 523.031C73.3749 767.97 271.937 966.531 516.875 966.531C661.78 966.531 790.443 897.009 871.375 789.531L475.375 540.531L945.156 407.656C894.366 218.674 721.894 79.5312 516.875 79.5312Z" fill="url(#RadialGradient)" fill-rule="nonzero" filter="url(#Filter)" stroke="none" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="23.0814" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="16.3953"/>
+<path d="M389.248 337.153C389.248 288.228 428.91 248.567 477.835 248.567C526.76 248.567 566.422 288.228 566.422 337.153C566.422 386.078 526.76 425.74 477.835 425.74C428.91 425.74 389.248 386.078 389.248 337.153Z" fill="#ff9320" fill-rule="nonzero" filter="url(#Filter_2)" stroke="#ffffff" stroke-linecap="butt" stroke-linejoin="round" stroke-width="9.66875" vectornator:shadowAngle="2.42308" vectornator:shadowColor="#000000" vectornator:shadowOffset="17.0736" vectornator:shadowOpacity="0.186357" vectornator:shadowRadius="16.3953"/>
+</g>
+</svg>

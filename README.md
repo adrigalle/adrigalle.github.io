@@ -1,3 +1,25 @@
+# Hello! I am Adriana
+
+![My little Artemis!](public/images/photographs/arty-smiling.jpg "Artemis, my daughter, smiling")
+
+This is my coding portfolio! It was made using Create React App (that info is below) and deployed to gh-pages where you can look at it <a href="https://github.com/adrigalle">here</a>.
+
+#### Here are my socials:
+
+<p align="center">
+<a href="https://github.com/adrigalle">
+    <img style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));" size="350px" src="public/images/icons/svg/GitHub.svg"/>
+</a>
+<a href="https://www.linkedin.com/in/adriana-gallegos-a2a992159">
+    <img style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));" size="350px" src="public/images/icons/svg/LinkedIn.svg"/>
+</a>   
+<a href="mailto:adriana.go1105@gmail.com">
+    <img style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));" size="350px" src="public/images/icons/svg/Email.svg"/>
+</a>
+
+</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
